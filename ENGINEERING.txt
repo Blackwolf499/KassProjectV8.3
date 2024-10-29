@@ -1,0 +1,31 @@
+# Business Operations Dashboard - Engineering Specification
+[Previous content remains the same until Language Standards section]
+
+## Language Standards (NEW)
+
+1. BRITISH ENGLISH
+- Use British English spelling and grammar throughout the codebase
+- Examples:
+  - 'colour' not 'color'
+  - 'optimise' not 'optimize'
+  - 'behaviour' not 'behavior'
+  - 'initialise' not 'initialize'
+  - 'centre' not 'center'
+  - 'analyse' not 'analyze'
+
+2. NAMING CONVENTIONS
+- Use British English in:
+  - Variable names (e.g., `backgroundColour`)
+  - Function names (e.g., `initialiseComponent`)
+  - Class names (e.g., `BehaviourSubject`)
+  - Comments and documentation
+  - User-facing text
+  - API endpoints and parameters
+
+3. DOCUMENTATION
+- All comments must use British English
+- API documentation must use British English
+- Error messages must use British English
+- Log entries must use British English
+
+[Rest of the content remains the same]
