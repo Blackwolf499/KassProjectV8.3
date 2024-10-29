@@ -1,0 +1,38 @@
+{
+  "metadata": {
+    "id": "28-001-Dragon",
+    "timestamp": "2024-03-28T10:15:00Z",
+    "fantasyName": "Dragon",
+    "category": "system",
+    "author": "GPT4"
+  },
+  "changes": {
+    "files": [
+      {
+        "path": "src/api/files/server.ts",
+        "diff": "...",
+        "checksum": "abc123"
+      },
+      {
+        "path": "src/api/files/client.ts",
+        "diff": "...",
+        "checksum": "def456"
+      }
+    ],
+    "dependencies": [
+      "express",
+      "multer",
+      "cors"
+    ],
+    "rollbackSteps": [
+      "Restore previous versions of modified files",
+      "Remove created metadata files",
+      "Clear PDF_FILES_UPLOAD directory"
+    ]
+  },
+  "context": {
+    "description": "Fixed server file upload functionality and error handling",
+    "motivation": "Users experiencing file upload failures and parsing errors",
+    "relatedLogs": []
+  }
+}

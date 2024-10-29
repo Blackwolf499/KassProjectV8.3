@@ -1,0 +1,148 @@
+# Business Operations Dashboard - Engineering Specification
+
+## Project Goals
+1. Create a reliable, cross-compatible, efficient web application
+2. Implement API-driven architecture
+3. Maintain high security standards
+4. Ensure comprehensive error handling
+5. Support scalability and maintainability
+
+## Core Architecture
+1. API-Driven Development
+   - RESTful/SOAP hybrid approach
+   - OpenAPI 2.0 compatible
+   - Comprehensive error handling
+   - Rate limiting enforcement
+   - Secure authentication
+
+2. Cross-Compatibility
+   - Browser support: Modern browsers
+   - Device support: Desktop and tablet
+   - PDF compatibility: Standard PDF formats
+
+3. Security
+   - Input validation
+   - File scanning
+   - Access control
+   - Secure storage
+   - Error handling
+
+4. Performance
+   - Efficient file processing
+   - Optimised memory usage
+   - Caching strategies
+   - Load balancing
+   - Resource monitoring
+
+## Code Standards
+
+1. Readability First
+   - Write code for junior developers
+   - Clear, descriptive naming
+   - Comprehensive documentation
+   - Logical organisation
+   - Strategic comments
+
+2. British English Standards
+   - Use British English spelling throughout
+   - Examples:
+     - 'colour' not 'color'
+     - 'optimise' not 'optimize'
+     - 'behaviour' not 'behavior'
+     - 'initialise' not 'initialize'
+     - 'centre' not 'center'
+     - 'analyse' not 'analyze'
+
+3. Documentation Requirements
+   - Function descriptions
+   - Parameter explanations
+   - Return value specifications
+   - Usage examples
+   - Edge cases
+   - Error scenarios
+
+4. Error Handling
+   - Custom error classes
+   - Detailed error messages
+   - Error recovery steps
+   - Logging standards
+   - User feedback
+
+## API Standards
+- All endpoints use POST method
+- Request/response bodies in JSON format
+- OpenAPI 2.0 compatible schema
+- SOAP/RESTful hybrid approach
+- Comprehensive error handling
+- Rate limiting enforcement
+- Secure authentication
+
+## Logging Standards
+- Location: /logs directory
+- Format: [ModelName]-YYYY-MM-DD-XX.log
+- Content: Detailed changes including code snippets
+- Size limit: 1MB per log
+- Fantasy-themed naming convention
+- Rollback capability
+
+## Development Rules
+1. No UI/frontend changes without explicit permission
+2. Focus on API-driven development
+3. Maintain comprehensive logs
+4. Review engineering notes before changes
+5. Document all modifications
+6. Use British English throughout
+7. Write code for junior developers
+
+## Project Structure
+```
+[Instructions]/   # Project documentation and standards
+├── API.md        # API documentation
+├── SECURITY.md   # Security guidelines
+├── LOGGING.md    # Logging standards
+└── DEVELOPMENT.md # Development guidelines
+
+logs/            # Change tracking and history
+├── CHANGES/     # Chronological changes
+├── ROLLBACKS/   # Rollback history
+├── API/         # API changes
+└── SECURITY/    # Security updates
+
+src/             # Source code
+├── api/         # API endpoints
+├── lib/         # Core libraries
+├── services/    # Business logic
+└── types/       # TypeScript definitions
+```
+
+## Change Management
+1. Review engineering notes
+2. Check existing logs
+3. Create feature branch
+4. Implement changes
+5. Update documentation
+6. Create log entry
+7. Test thoroughly
+8. Submit for review
+
+## Error Standards
+1. Use custom error classes
+2. Include error context
+3. Implement recovery
+4. Log all errors
+5. Provide user feedback
+
+## Security Requirements
+1. Input validation
+2. File validation
+3. Access control
+4. Secure storage
+5. Error handling
+6. Activity monitoring
+
+## Performance Standards
+1. Optimise file processing
+2. Implement caching
+3. Monitor memory usage
+4. Load balancing
+5. Resource monitoring

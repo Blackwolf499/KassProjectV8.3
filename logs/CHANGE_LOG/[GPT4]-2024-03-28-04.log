@@ -1,0 +1,55 @@
+TIMESTAMP: [2024-03-28 13:15:00]
+CATEGORY: Documentation
+DESCRIPTION: Added British English language standards
+
+CHANGES:
+1. Added Language Standards section to ENGINEERING.txt
+2. Specified British English usage requirements
+3. Added spelling examples and conventions
+4. Updated naming conventions
+
+FILES MODIFIED:
+- ENGINEERING.txt
+
+CONTEXT:
+Standardising language usage across the codebase to ensure consistency and maintain British English throughout all aspects of development.
+
+DEPENDENCIES:
+None - Documentation only changes
+
+ROLLBACK:
+Revert ENGINEERING.txt to previous version
+
+DIFF SUMMARY:
+{
+  "files": {
+    "ENGINEERING.txt": {
+      "changes": "+50/-0",
+      "summary": "Added Language Standards section",
+      "sections": {
+        "added": [
+          "Language Standards",
+          "British English Usage",
+          "Naming Conventions"
+        ]
+      }
+    }
+  }
+}
+
+CODE EXAMPLES:
+Before:
+```typescript
+function initializeColor(color: string) {
+  // Initialize the color
+  this.backgroundColor = color;
+}
+```
+
+After:
+```typescript
+function initialiseColour(colour: string) {
+  // Initialise the colour
+  this.backgroundColour = colour;
+}
+```
